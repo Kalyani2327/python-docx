@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Module 8: Concurrency and Parallelism</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f4f8;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #34495e;
+    }
+
+    code {
+      background: #ecf0f1;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .back-link a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 1.1rem;
+      background: #e0e7ff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease;
+    }
+
+    .back-link a:hover {
+      background: #c7d2fe;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📘 Module 8: Concurrency and Parallelism</h1>
+
+  <div class="content">
+    <h2>🔄 What is Concurrency?</h2>
+    <p>Concurrency is when multiple tasks are making progress at the same time. In Python, this is often done using threads or async programming.</p>
+
+    <h2>⚙️ What is Parallelism?</h2>
+    <p>Parallelism is when tasks literally run at the same time — typically on multiple CPU cores — using the <code>multiprocessing</code> module.</p>
+
+    <h2>🧵 Threading</h2>
+    <p>Python's <code>threading</code> module allows concurrent execution, but due to the GIL (Global Interpreter Lock), threads don’t truly run in parallel for CPU-bound tasks.</p>
+
+    <h2>🔀 Asyncio</h2>
+    <p>Ideal for I/O-bound operations like file access or network calls. Async programming uses <code>async</code> and <code>await</code> keywords.</p>
+
+    <h2>💡 Multiprocessing</h2>
+    <p>Use the <code>multiprocessing</code> module for parallel execution on multiple cores. Great for CPU-heavy operations.</p>
+
+    <h2>✅ Summary</h2>
+    <ul>
+      <li><strong>Use threading</strong> for lightweight concurrent I/O tasks.</li>
+      <li><strong>Use asyncio</strong> for async network or file operations.</li>
+      <li><strong>Use multiprocessing</strong> for CPU-bound parallel processing.</li>
+    </ul>
+  </div>
+
+  <div class="back-link">
+    <a href="core.html">⬅ Back to Core Modules</a>
+  </div>
+
+</body>
+</html>

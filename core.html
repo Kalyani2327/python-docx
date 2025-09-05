@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Core Python Modules</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 2.5rem;
+      color: #2c3e50;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+      text-decoration: none;
+      color: #2d2d2d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    /* Problem Solving Card */
+    .problem-wrapper {
+      width: 80%;
+      max-width: 900px;
+      margin: 60px auto;
+    }
+
+    .problem-card {
+      position: relative;
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+    }
+
+    .problem-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    }
+
+    .star {
+      position: absolute;
+      font-size: 1.3rem;
+      color: gold;
+      opacity: 0.7;
+      animation: sparkle 3s infinite ease-in-out;
+      pointer-events: none;
+    }
+
+    /* Different random star positions */
+    .star1 { top: 10px; left: 20px; animation-delay: 0s; }
+    .star2 { top: 20px; right: 30px; animation-delay: 0.3s; }
+    .star3 { bottom: 15px; left: 40px; animation-delay: 0.6s; }
+    .star4 { bottom: 20px; right: 50px; animation-delay: 0.9s; }
+    .star5 { top: 50%; left: 10%; animation-delay: 1.2s; }
+    .star6 { top: 60%; right: 15%; animation-delay: 1.5s; }
+    .star7 { top: 35%; left: 40%; animation-delay: 1.8s; }
+    .star8 { bottom: 10%; right: 25%; animation-delay: 2.1s; }
+
+    @keyframes sparkle {
+      0%, 100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 0.6;
+      }
+      50% {
+        transform: scale(1.4) rotate(20deg);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐍 Core Python Modules</h1>
+
+  <div class="container">
+    <a href="module1.html" class="card">📘 Module 1: Basics of Python</a>
+    <a href="module2.html" class="card">📘 Module 2: Control Structures and Functions</a>
+    <a href="module3.html" class="card">📘 Module 3: Advanced Data Structures</a>
+    <a href="module4.html" class="card">📘 Module 4: Object-Oriented Programming (OOP)</a>
+    <a href="module5.html" class="card">📘 Module 5: Libraries, File Handling, and Exception Handling</a>
+    <a href="module6.html" class="card">📘 Module 6: Advanced Python Concepts</a>
+    <a href="module7.html" class="card">📘 Module 7: Pythonic Practices and Functional Programming</a>
+    <a href="module8.html" class="card">📘 Module 8: Concurrency and Parallelism</a>
+  </div>
+
+  <!-- ✨ Problem Solving Card with Stars Inside -->
+  <div class="problem-wrapper">
+    <a href="problem.html" class="problem-card">
+      📘 Problem Solving Practice
+      <span class="star star1">⭐</span>
+      <span class="star star2">🌟</span>
+      <span class="star star3">✨</span>
+      <span class="star star4">⭐</span>
+      <span class="star star5">🌟</span>
+      <span class="star star6">⭐</span>
+      <span class="star star7">✨</span>
+      <span class="star star8">⭐</span>
+    </a>
+  </div>
+
+
+  <div class="problem-wrapper">
+    <a href="sql.html" class="problem-card">
+      📘 sql
+      <span class="star star1">⭐</span>
+      <span class="star star2">🌟</span>
+      <span class="star star3">✨</span>
+      <span class="star star4">⭐</span>
+      <span class="star star5">🌟</span>
+      <span class="star star6">⭐</span>
+      <span class="star star7">✨</span>
+      <span class="star star8">⭐</span>
+    </a>
+  </div>
+
+
+    <div class="problem-wrapper">
+    <a href="dsa.html" class="problem-card">
+      📘 important dsa algo
+      <span class="star star1">⭐</span>
+      <span class="star star2">🌟</span>
+      <span class="star star3">✨</span>
+      <span class="star star4">⭐</span>
+      <span class="star star5">🌟</span>
+      <span class="star star6">⭐</span>
+      <span class="star star7">✨</span>
+      <span class="star star8">⭐</span>
+    </a>
+  </div>
+
+</body>
+</html>

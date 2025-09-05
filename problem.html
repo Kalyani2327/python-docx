@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Topics</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 2.2rem;
+      color: #2c3e50;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card-link {
+      text-decoration: none;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #34495e;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .link-section {
+      text-align: center;
+      margin: 60px 0 40px;
+    }
+
+    .link-section a {
+      display: inline-block;
+      padding: 12px 28px;
+      font-size: 1.1rem;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .link-section a:hover {
+      background-color: #2980b9;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+      }
+
+      .card {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧩 Python Topics</h1>
+
+  <div class="grid-container">
+    <a href="list.html" class="card-link"><div class="card">📋 List</div></a>
+    <a href="tuple.html" class="card-link"><div class="card">🔗 Tuple</div></a>
+    <a href="string.html" class="card-link"><div class="card">📝 String</div></a>
+    <a href="set.html" class="card-link"><div class="card">🧺 Set</div></a>
+    <a href="dictionary.html" class="card-link"><div class="card">📘 Dictionary</div></a>
+    <a href="loops.html" class="card-link"><div class="card">🔁 Loops</div></a>
+    <a href="conditions.html" class="card-link"><div class="card">🔀 Conditional Statements</div></a>
+    <a href="functions.html" class="card-link"><div class="card">🧮 Functions</div></a>
+  </div>
+
+  <div class="link-section">
+    <a href="core.html">⬅ Back to Problem Solving</a>
+  </div>
+
+</body>
+</html>
+ 

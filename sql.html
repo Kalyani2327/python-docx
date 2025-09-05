@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SQL Curriculum</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f8fb;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      background-color: white;
+      padding: 25px 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #34495e;
+      margin-bottom: 15px;
+      font-size: 1.6rem;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      color: #2d2d2d;
+    }
+
+    .link-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .link-section a {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      border-radius: 8px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .link-section a:hover {
+      background-color: #2980b9;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      li {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📚 SQL Curriculum Overview</h1>
+
+  <div class="section">
+    <h2>🔧 DDL (Data Definition Language)</h2>
+    <ul>
+      <li>CREATE, ALTER, DROP</li>
+      <li>TRUNCATE, RENAME</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>✏️ DML (Data Manipulation Language)</h2>
+    <ul>
+      <li>INSERT, UPDATE, DELETE</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔍 DQL (Data Query Language)</h2>
+    <ul>
+      <li>SELECT, WHERE, ORDER BY</li>
+      <li>GROUP BY, HAVING</li>
+      <li>DISTINCT, LIMIT</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔒 DCL (Data Control Language)</h2>
+    <ul>
+      <li>GRANT, REVOKE</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔁 TCL (Transaction Control Language)</h2>
+    <ul>
+      <li>COMMIT, ROLLBACK, SAVEPOINT</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧩 Views and Indexes</h2>
+    <ul>
+      <li>CREATE VIEW, UPDATE VIEW, DROP VIEW</li>
+      <li>CREATE INDEX, DROP INDEX</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔗 Joins</h2>
+    <ul>
+      <li>INNER JOIN, LEFT JOIN, RIGHT JOIN</li>
+      <li>FULL OUTER JOIN, SELF JOIN, CROSS JOIN</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ Stored Procedures & Triggers</h2>
+    <ul>
+      <li>Creating Stored Procedures</li>
+      <li>IN, OUT, INOUT Parameters</li>
+      <li>Trigger Syntax (BEFORE/AFTER)</li>
+      <li>Trigger Use Cases</li>
+    </ul>
+  </div>
+
+  <!-- Advanced Section -->
+  <div class="section">
+    <h2>🧠 Advanced SQL Topics</h2>
+    <ul>
+      <li><strong>Subqueries:</strong> IN, EXISTS, Correlated Subqueries</li>
+      <li><strong>Window Functions:</strong> RANK, DENSE_RANK, ROW_NUMBER</li>
+      <li><strong>CTE:</strong> WITH clause usage</li>
+      <li><strong>Set Operators:</strong> UNION, INTERSECT, EXCEPT</li>
+      <li><strong>JSON Handling:</strong> JSON_OBJECT, JSON_ARRAY (MySQL/PostgreSQL)</li>
+      <li><strong>Normalization:</strong> 1NF, 2NF, 3NF, BCNF</li>
+      <li><strong>ER Diagrams & Schema Design</strong></li>
+    </ul>
+  </div>
+
+  <div class="link-section">
+    <a href="core.html">⬅ Back to Core Modules</a>
+  </div>
+
+</body>
+</html>
